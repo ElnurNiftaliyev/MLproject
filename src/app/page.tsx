@@ -1,3 +1,9 @@
+import ExperimentDashboard from "@/components/dashboard/experiment-dashboard";
+
 export default function Home() {
-  return <></>;
+  return (
+    <main>
+      <ExperimentDashboard />
+    </main>
+  );
 }
